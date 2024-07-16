@@ -4,7 +4,7 @@
 
 ### Enumeration
 
-Here we are checking if we are able to establish a connection with the target machine. In Conclusion we are able to establish a connection between our lab with the target.
+Here we are checking if we are able to establish a connection with the target machine. In conclusion we are able to establish a connection between our lab with the target.
 
 **Command 1** -
 
@@ -103,6 +103,5 @@ Last login: Mon Sep  6 15:15:23 UTC 2021 from 10.10.14.18 on pts/0
 root@Meow:~#
 ``` 
 
-### This machine had been pawned.
-
-~~goobar07
+### This machine has been pawned.
+~goobar07
