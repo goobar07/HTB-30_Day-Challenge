@@ -4,7 +4,7 @@
 
 ### Enumeration
 
-Here we are checking if we are able to establish a connection with the target machine. In Conclusion we are able to establish a connection between our lab with the target.
+Here we are checking if we are able to establish a connection with the target machine. In conclusion we are able to establish a connection between our lab with the target.
 
 **Command 1** - 
 

@@ -1,0 +1,11 @@
+┌──(goobar07㉿LUCY)-[~/HTB_30-Day_Challenge/Tier_0/Redeemer]
+└─$ nmap -sV 10.129.224.31 -p 6200-6400
+Starting Nmap 7.94SVN ( https://nmap.org ) at 2024-07-18 13:40 IST
+Nmap scan report for 10.129.224.31
+Host is up (0.56s latency).
+Not shown: 200 closed tcp ports (conn-refused)
+PORT     STATE SERVICE VERSION
+6379/tcp open  redis   Redis key-value store 5.0.7
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 49.05 seconds
