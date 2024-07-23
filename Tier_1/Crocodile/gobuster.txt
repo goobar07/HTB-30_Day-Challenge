@@ -1,0 +1,85 @@
+┌──(goobar07㉿LUCY)-[~]
+└─$ gobuster dir --url http://10.129.205.130/ --wordlist SecLists/Discovery/Web-Content/directory-list-2.3-small.txt -x php,h
+tml
+===============================================================
+Gobuster v3.6
+by OJ Reeves (@TheColonial) & Christian Mehlmauer (@firefart)
+===============================================================
+[+] Url:                     http://10.129.205.130/
+[+] Method:                  GET
+[+] Threads:                 10
+[+] Wordlist:                SecLists/Discovery/Web-Content/directory-list-2.3-small.txt
+[+] Negative Status codes:   404
+[+] User Agent:              gobuster/3.6
+[+] Extensions:              php,html
+[+] Timeout:                 10s
+===============================================================
+Starting gobuster in directory enumeration mode
+===============================================================
+/.php                 (Status: 403) [Size: 279]
+/.html                (Status: 403) [Size: 279]
+/index.html           (Status: 200) [Size: 58565]
+/login.php            (Status: 200) [Size: 1577]
+/assets               (Status: 301) [Size: 317] [--> http://10.129.205.130/assets/]
+/css                  (Status: 301) [Size: 314] [--> http://10.129.205.130/css/]
+/js                   (Status: 301) [Size: 313] [--> http://10.129.205.130/js/]
+/logout.php           (Status: 302) [Size: 0] [--> login.php]
+/config.php           (Status: 200) [Size: 0]
+/fonts                (Status: 301) [Size: 316] [--> http://10.129.205.130/fonts/]
+/dashboard            (Status: 301) [Size: 320] [--> http://10.129.205.130/dashboard/]
+Progress: 10713 / 262995 (4.07%)[ERROR] Get "http://10.129.205.130/732.html": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+[ERROR] Get "http://10.129.205.130/1761.php": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+[ERROR] Get "http://10.129.205.130/1761": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+Progress: 10716 / 262995 (4.07%)[ERROR] Get "http://10.129.205.130/1761.html": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+[ERROR] Get "http://10.129.205.130/562": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+[ERROR] Get "http://10.129.205.130/562.php": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+[ERROR] Get "http://10.129.205.130/562.html": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+[ERROR] Get "http://10.129.205.130/703.html": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+[ERROR] Get "http://10.129.205.130/703": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+[ERROR] Get "http://10.129.205.130/703.php": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+Progress: 10723 / 262995 (4.08%)[ERROR] Get "http://10.129.205.130/1373.php": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+[ERROR] Get "http://10.129.205.130/1373": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+[ERROR] Get "http://10.129.205.130/1373.html": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+Progress: 10726 / 262995 (4.08%)[ERROR] Get "http://10.129.205.130/477": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+[ERROR] Get "http://10.129.205.130/477.php": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+[ERROR] Get "http://10.129.205.130/477.html": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+[ERROR] Get "http://10.129.205.130/714": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+[ERROR] Get "http://10.129.205.130/1527.php": dial tcp 10.129.205.130:80: i/o timeout (Client.Timeout exceeded while awaiting headers)
+[ERROR] Get "http://10.129.205.130/1527.html": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+[ERROR] Get "http://10.129.205.130/1527": dial tcp 10.129.205.130:80: i/o timeout (Client.Timeout exceeded while awaiting headers)
+Progress: 10733 / 262995 (4.08%)[ERROR] Get "http://10.129.205.130/714.php": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+[ERROR] Get "http://10.129.205.130/530": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+[ERROR] Get "http://10.129.205.130/714.html": dial tcp 10.129.205.130:80: i/o timeout (Client.Timeout exceeded while awaiting headers)
+Progress: 10736 / 262995 (4.08%)[ERROR] Get "http://10.129.205.130/530.html": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+[ERROR] Get "http://10.129.205.130/530.php": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+[ERROR] Get "http://10.129.205.130/512": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+[ERROR] Get "http://10.129.205.130/nintendo": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+[ERROR] Get "http://10.129.205.130/512.php": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+[ERROR] Get "http://10.129.205.130/nintendo.php": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+[ERROR] Get "http://10.129.205.130/512.html": dial tcp 10.129.205.130:80: i/o timeout (Client.Timeout exceeded while awaiting headers)
+Progress: 13450 / 262995 (5.11%)[ERROR] Get "http://10.129.205.130/624.php": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+[ERROR] Get "http://10.129.205.130/624": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+[ERROR] Get "http://10.129.205.130/624.html": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+[ERROR] Get "http://10.129.205.130/phpadsnew.php": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+[ERROR] Get "http://10.129.205.130/phpadsnew": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+[ERROR] Get "http://10.129.205.130/addnews.php": dial tcp 10.129.205.130:80: i/o timeout (Client.Timeout exceeded while awaiting headers)
+[ERROR] Get "http://10.129.205.130/addnews": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+[ERROR] Get "http://10.129.205.130/addnews.html": dial tcp 10.129.205.130:80: i/o timeout (Client.Timeout exceeded while awaiting headers)
+[ERROR] Get "http://10.129.205.130/purchasing": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+[ERROR] Get "http://10.129.205.130/phpadsnew.html": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+Progress: 19392 / 262995 (7.37%)[ERROR] Get "http://10.129.205.130/Golf.html": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+[ERROR] Get "http://10.129.205.130/App.html": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+[ERROR] Get "http://10.129.205.130/App": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+[ERROR] Get "http://10.129.205.130/App.php": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+[ERROR] Get "http://10.129.205.130/Germany": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+[ERROR] Get "http://10.129.205.130/bitdefender.php": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+[ERROR] Get "http://10.129.205.130/bitdefender": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+[ERROR] Get "http://10.129.205.130/Germany.php": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+[ERROR] Get "http://10.129.205.130/bitdefender.html": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+[ERROR] Get "http://10.129.205.130/Germany.html": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+Progress: 22283 / 262995 (8.47%)^C
+[!] Keyboard interrupt detected, terminating.
+Progress: 22283 / 262995 (8.47%)
+===============================================================
+Finished
+===============================================================
