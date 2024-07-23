@@ -1,0 +1,25 @@
+┌──(goobar07㉿LUCY)-[~]
+└─$ gobuster dir --url http://10.129.164.45/ --wordlist ~/SecLists/Discovery/Web-Content/directory-list-2.3-small.txt
+===============================================================
+Gobuster v3.6
+by OJ Reeves (@TheColonial) & Christian Mehlmauer (@firefart)
+===============================================================
+[+] Url:                     http://10.129.164.45/
+[+] Method:                  GET
+[+] Threads:                 10
+[+] Wordlist:                /home/goobar07/SecLists/Discovery/Web-Content/directory-list-2.3-small.txt
+[+] Negative Status codes:   404
+[+] User Agent:              gobuster/3.6
+[+] Timeout:                 10s
+===============================================================
+Starting gobuster in directory enumeration mode
+===============================================================
+/images               (Status: 301) [Size: 315] [--> http://10.129.164.45/images/]
+/css                  (Status: 301) [Size: 312] [--> http://10.129.164.45/css/]
+/js                   (Status: 301) [Size: 311] [--> http://10.129.164.45/js/]
+/vendor               (Status: 301) [Size: 315] [--> http://10.129.164.45/vendor/]
+/fonts                (Status: 301) [Size: 314] [--> http://10.129.164.45/fonts/]
+Progress: 87664 / 87665 (100.00%)
+===============================================================
+Finished
+===============================================================
