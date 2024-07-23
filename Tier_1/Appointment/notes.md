@@ -26,7 +26,7 @@ Nmap done: 1 IP address (1 host up) scanned in 86.48 seconds
 ```
 Now we accessed the site on the http://10.129.164.45/
 
-![Login page image](https://github.com/goobar07/HTB-30_Day-Challenge/blob/main/Tier_1/Appointment/Photo_1)
+![Login page image](https://github.com/goobar07/HTB-30_Day-Challenge/blob/main/Tier_1/Appointment/Photo_1.png)
 
 Now we will use gobuster to find all the possible directories present in the site. The wordlist we used was downloaded through github the repo name is `SecLists`. In conclusion we found 5 directories which are used by the target on the web site.
 
@@ -83,7 +83,7 @@ username: admin`#
 password: abc123
 ```
 
-![Flag page image](https://github.com/goobar07/HTB-30_Day-Challenge/blob/main/Tier_1/Appointment/Photo_2)
+![Flag page image](https://github.com/goobar07/HTB-30_Day-Challenge/blob/main/Tier_1/Appointment/Photo_2.png)
 
 ### This machine has been pawned
 
